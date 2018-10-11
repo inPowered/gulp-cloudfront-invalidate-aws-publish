@@ -6,6 +6,7 @@ var PluginError = require('plugin-error')
 module.exports = function (options) {
   options.wait = !!options.wait;
   options.indexRootPath = !!options.indexRootPath;
+  var prefix = options.prefix ? options.prefix + '/' : '';
 
   var cloudfront = new aws.CloudFront();
 
@@ -86,7 +87,7 @@ module.exports = function (options) {
     if(files.length == 0) return callback();
 
     files = files.map(function(file) {
-      return '/' + file;
+      return '/' + prefix + file;
     });
 
     cloudfront.createInvalidation({
