@@ -6,7 +6,7 @@ var PluginError = require('plugin-error')
 module.exports = function (options) {
   options.wait = !!options.wait;
   options.indexRootPath = !!options.indexRootPath;
-  var prefix = options.prefix ? options.prefix + '/' : '';
+  var prefix = options.prefix || '';
 
   var cloudfront = new aws.CloudFront();
 

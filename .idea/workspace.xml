@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867534b2-8300-4bc0-b445-b4f0f6f3fbff" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gulp-cloudfront-invalidate-aws-publish.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,21 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="-264">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -54,8 +40,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -132,12 +118,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539283336343</updated>
-      <workItem from="1539283337507" duration="249000" />
+      <workItem from="1539283337507" duration="527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249000" />
+    <option name="totallyTimeSpent" value="527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="774" extended-state="0" />
@@ -173,18 +159,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
